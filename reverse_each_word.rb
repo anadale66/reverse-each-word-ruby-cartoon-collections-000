@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     word.reverse!
   end
 
-  print sentence_split.join(" ")
+  return sentence_split.join(" ")
 end
 
 def reverse_each_word(sentence)
@@ -15,5 +15,5 @@ def reverse_each_word(sentence)
     word.reverse!
   end
 
-  print sentence_split.join(" ")
+  return sentence_split.join(" ")
 end
