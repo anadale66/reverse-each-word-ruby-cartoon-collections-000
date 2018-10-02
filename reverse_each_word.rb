@@ -1,6 +1,6 @@
 def reverse_each_word(sentence)
   
-  reversed = ""
+  reversed = []
   sentence_split = sentence.split(" ")
   sentence.length.times {reversed << sentence_split.pop} 
   
