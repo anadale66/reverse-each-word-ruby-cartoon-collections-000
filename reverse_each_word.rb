@@ -5,6 +5,8 @@ def reverse_each_word(sentence)
   sentence_split.each do |letter|
   reversed = letter + reversed 
   end
+  
+  return reversed
 
 end
 
@@ -16,5 +18,7 @@ def reverse_each_word(sentence)
   sentence_split.collect do |letter|
   reversed = letter + reversed 
   end
+  
+  return reversed
 
 end
